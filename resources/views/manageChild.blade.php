@@ -13,6 +13,7 @@
 
                                       <button type="submit" class="btn btn-sm btn-danger">Delete</button>
                                     </form>
+                                     <a type="button" href=""class="btn btn-sm btn-primary mr-1 edit-category" >Add Product</a>
                                   </div>
                                 </div>
 	@if(count($child->childs))

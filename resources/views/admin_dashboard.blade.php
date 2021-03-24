@@ -9,7 +9,7 @@
 
 </head>
 <body>
-    {{-- <div class="container">     
+    <div class="container">     
         <div class="panel panel-primary">
             <div class="panel-heading">Category list Tree View </div>
             <div class="panel-body">
@@ -32,6 +32,7 @@
 
                               <button type="submit" class="btn btn-sm btn-danger">Delete</button>
                             </form>
+                             <a type="button" href=""class="btn btn-sm btn-primary mr-1 edit-category" >Add Product</a>
                           </div>
                         </div>
 
@@ -45,8 +46,8 @@
                         </ul>
                     </div>
                 </div>
-            </div> </div> --}}
-                    {{-- <div class="col-md-6">
+            </div> </div>
+                    <div class="col-md-6">
                         <h3>Create a Category</h3>
                            <form method="post" action="{{ route('add_category') }}">
                             @csrf
@@ -86,7 +87,7 @@
                                 </div>
                                </form>
 
-                    </div> --}}
+                    </div>
                 </div>
 
                 

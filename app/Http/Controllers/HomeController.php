@@ -31,11 +31,8 @@ class HomeController extends Controller
 
     public function admin_dashboard() 
     {
-    // $parentCategories = \App\Category::where('parent_id',0)->get();
-    // return view('admin_dashboard', compact('parentCategories'));
-
         $categories = Category::where('parent_id', '=', 0)->get();
-        $allCategories = Category::all();//dd($allCategories);
+        $allCategories = Category::all();
         return view('admin_dashboard',compact('categories','allCategories'));
 
     }
